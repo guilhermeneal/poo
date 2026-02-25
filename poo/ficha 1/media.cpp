@@ -1,0 +1,16 @@
+    #include <iostream>
+    using namespace std;
+
+    main() {
+        float nota1, nota2;
+        cout << "Digite a primeira nota: ";
+        cin >> nota1;
+        cout << "Digite a segunda nota: ";
+        cin >> nota2;
+        float media =(nota1 + nota2) / 2;
+        if (media <= 9.5) {
+            cout << "A média da sua primeira nota " << nota1 << " com a sua segunda nota " << nota2 << " é igual a: " << media << ". Infelizmente você foi reprovado." << endl;
+        } else {
+            cout << "A média da sua primeira nota " << nota1 << " com a sua segunda nota " << nota2 << " é igual a: " << media << ". Parabéns, você foi aprovado!" << endl;
+        }
+    }

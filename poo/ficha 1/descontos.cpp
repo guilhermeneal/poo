@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 
     string produto;
     float preco, desconto = 0, precoFinal;
@@ -29,7 +30,8 @@ int main() {
         desconto = 15;
     else if (produto == "Couve de Bruxelas")
         desconto = 5;
-    else {
+    else
+    {
         cout << "Produto sem desconto." << endl;
     }
 
@@ -38,5 +40,7 @@ int main() {
     cout << "Desconto: " << desconto << "%" << endl;
     cout << "Preco final: " << precoFinal << endl;
 
+    cin.get();
+    cin.get();
     return 0;
 }

@@ -43,6 +43,7 @@ int main()
     default:
         cout << "Operação inválida!" << endl;
     }
-
+    cin.get();
+    cin.get();
     return 0;
 }
